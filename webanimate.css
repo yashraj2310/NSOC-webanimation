@@ -121,6 +121,13 @@ img {
 }
 
 
+.product-img__item-hover {
+  transition: transform 0.3s ease;
+}
+
+.product-img__item-hover:hover {
+  transform: scale(1.05);
+}
 
 button,
 input,
